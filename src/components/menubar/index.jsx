@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="pl-1 pt-1">
             <a href="#">
               <img
-                src="./image/logo.png"
+                src="image/logo.png"
                 alt="notes Image"
                 className="h-10 w-12 bg-lime-500 pl-2 rounded-full shrink-0"
               />
