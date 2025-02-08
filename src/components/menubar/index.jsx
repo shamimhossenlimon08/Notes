@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { HiMenuAlt1, HiMenuAlt2 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import ResponsiveMenu from "./ResponsiveMenu";
+import Logo from "/src/assets/image/logo.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
           <div className="pl-1 pt-1">
             <a href="#">
               <img
-                src="image/logo.png"
+                src={Logo}
                 alt="notes Image"
                 className="h-10 w-12 bg-lime-500 pl-2 rounded-full shrink-0"
               />
