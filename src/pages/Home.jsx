@@ -69,7 +69,7 @@ const Home = () => {
               placeholder="Discription"
               value={discription}
               onChange={(e) => setDiscription(e.target.value)}
-              className="w-full border border-blue-300 rounded-sm p-2 mt-3 h-24 resize-none outline-none sm:h-32 md:h-36 lg:h-28 }"
+              className="w-full border border-blue-300 rounded-sm p-2 mt-3 h-24 resize-none outline-none sm:h-32 md:h-36 lg:h-28 "
             ></textarea>
             <button
               onClick={handleNote}
